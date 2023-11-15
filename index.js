@@ -106,7 +106,7 @@ function cardRender(sector) {
     imgElement.setAttribute("src", element.img);
 
     let cardContent = document.createElement("div");
-    cardContent.setAttribute("class", "paddingLeft10 wordBreak paddingBottom4");
+    cardContent.setAttribute("class", " wordBreak  padding-content");
 
     let header4 = document.createElement("h4");
     header4.innerHTML = element.title;
